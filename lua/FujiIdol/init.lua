@@ -30,6 +30,7 @@ function M.setup()
 		CursorLine = {bg = colors.nekomi0},
 		StatusLine = {fg = colors.blue, bg = colors.nekomi0},
 		MsgArea = {bg = colors.nekomi0, fg = colors.magenta1},
+		Todo = {bg = colors.cyan1, fg = colors.nekomi0},
 		--diagnostic
 		DiagnosticWarn = {fg = colors.yellow1},
 		DiagnosticError = {fg = colors.red1},
