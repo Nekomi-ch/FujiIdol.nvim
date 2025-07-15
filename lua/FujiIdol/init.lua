@@ -23,6 +23,7 @@ function M.setup()
 		String = {fg = colors.green},
 		Number = {fg = colors.orange},
 		Function = {fg = colors.blue},
+		Statement = {fg = colors.blue1},
 		Identifier = {fg = colors.cyan1},
 		LineNr = {fg = colors.nekomi3},
 		Cursor = {fg = colors.nekomi1, bg = colors.magenta},
@@ -36,10 +37,16 @@ function M.setup()
 		DiagnosticError = {fg = colors.red1},
 		DiagnosticInfo = {fg = colors.green1},
 		DiagnosticHint = {fg = colors.blue1},
-		DiagnosticUnderLineWarn = {sp = colors.yellow1},
-		DiagnosticUnderLineError = {sp = colors.red1},
-		DiagnosticUnderLineInfo = {sp = colors.green1},
-		DiagnosticUnderLineHint = {sp = colors.blue1},
+		DiagnosticUnderLineWarn = {sp = colors.yellow1, underline = true},
+		DiagnosticUnderLineError = {sp = colors.red1, underline = true},
+		DiagnosticUnderLineInfo = {sp = colors.green1, underline = true},
+		DiagnosticUnderLineHint = {sp = colors.blue1, underline = true},
+		--Spell
+		SpellBad = {sp = colors.magenta1, undercurl = true},
+		SpellCap = {sp = colors.magenta1, undercurl = true},
+		SpellLocal = {sp = colors.magenta1, undercurl = true},
+		SpellRare = {sp = colors.magenta1, undercurl = true},
+
 	}
 
 	--apply highlights 
