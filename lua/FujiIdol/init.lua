@@ -46,7 +46,10 @@ function M.setup()
 		SpellCap = {sp = colors.magenta1, undercurl = true},
 		SpellLocal = {sp = colors.magenta1, undercurl = true},
 		SpellRare = {sp = colors.magenta1, undercurl = true},
-
+		-- Treesitter
+		["@markup.heading"] = {fg = colors.yellow},
+		["@punctuation.bracket"] = {fg = colors.pink},
+		["@constructor"] = {fg = colors.pink},
 	}
 
 	--apply highlights 
