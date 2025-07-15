@@ -50,6 +50,8 @@ function M.setup()
 		["@markup.heading"] = {fg = colors.yellow},
 		["@punctuation.bracket"] = {fg = colors.pink},
 		["@constructor"] = {fg = colors.pink},
+		--telescope
+		TelescopeBorder = {fg = colors.magenta1}
 	}
 
 	--apply highlights 
