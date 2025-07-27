@@ -15,7 +15,7 @@ Thank you.
 
 ## Todo
 - [X] LuaLine
-- [ ] Cmp Popup
+- [X] Cmp Popup
 - [ ] Treesitter 
 - [ ] Telescope
 - [ ] Which-key
