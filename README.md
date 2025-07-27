@@ -14,6 +14,7 @@ There probably is a lot left to do, but I have no idea what is left so by using 
 Thank you.
 
 ## Todo
-- [ ] LuaLine
+- [X] LuaLine
 - [ ] Treesitter 
 - [ ] Telescope
+- [ ] Which-key
