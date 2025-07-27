@@ -27,6 +27,10 @@ neovim port for the FujiIdol color scheme
 
 More to come
 
+## Palette 
+
+[See here](https://github.com/Nekomi-ch/FujiIdol/tree/main?tab=readme-ov-file#palette)
+
 ## Disclaimer
 
 I don't think it is fully done, but I think you can use it for now. 
