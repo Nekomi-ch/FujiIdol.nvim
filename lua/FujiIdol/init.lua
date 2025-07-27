@@ -32,6 +32,13 @@ function M.setup()
 		StatusLine = {fg = colors.blue, bg = colors.nekomi0},
 		MsgArea = {bg = colors.nekomi0, fg = colors.magenta1},
 		Todo = {bg = colors.cyan1, fg = colors.nekomi0},
+		--Cmp
+		Pmenu = {fg = colors.nekomi6, bg = colors.nekomi0},
+		PmenuSel = {fg = colors.nekomi0, bg = colors.blue1},
+		CmpItemAbbr = {fg = colors.yellow1},
+		CmpItemAbbrMatch = {fg = colors.nekomi6},
+		CmpItemAbbrMatchFuzzy = {fg = colors.nekomi6},
+		CmpItemKind = {fg = colors.blue1},
 		--diagnostic
 		DiagnosticWarn = {fg = colors.yellow1},
 		DiagnosticError = {fg = colors.red1},
