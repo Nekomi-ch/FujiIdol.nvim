@@ -24,6 +24,7 @@ neovim port for the FujiIdol color scheme
 
 - [Cmp](https://github.com/hrsh7th/nvim-cmp)
 - [LuaLine](https://github.com/nvim-lualine/lualine.nvim) 
+- [Which-key](https://github.com/folke/which-key.nvim)
 
 More to come
 
@@ -37,7 +38,6 @@ I don't think it is fully done, but I think you can use it for now.
 There probably is a lot left to do, but I have no idea what is left so by using it you can help me gain info on what is missing.
 Thank you.
 
-## Todo
+## [TODO]
 - [ ] Treesitter 
 - [ ] Telescope
-- [ ] Which-key

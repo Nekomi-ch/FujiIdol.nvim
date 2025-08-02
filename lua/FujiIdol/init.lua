@@ -5,7 +5,6 @@ local M = {}
 --setting colors
 local colors = require("FujiIdol.palette.NekomiNight")
 
-
 function M.setup()
 	vim.cmd 'highlight clear'
 	vim.cmd 'syntax reset'
@@ -58,7 +57,16 @@ function M.setup()
 		["@punctuation.bracket"] = {fg = colors.pink},
 		["@constructor"] = {fg = colors.pink},
 		--telescope
-		TelescopeBorder = {fg = colors.magenta1}
+		TelescopeBorder = {fg = colors.magenta1},
+		--Which-key
+		WhichKey = {fg = colors.blue1},
+		WhichKeyIconBlue = {fg = colors.blue},
+		WhichKeyIconCyan = {fg = colors.cyan},
+		WhichKeyIconGreen = {fg = colors.green},
+		WhichKeyIconOrange = {fg = colors.orange},
+		WhichKeyIconYellow = {fg = colors.yellow},
+		WhichKeyIconRed = {fg = colors.red},
+		WhichKeyIconPurple = {fg = colors.magenta},
 	}
 
 	--apply highlights 
