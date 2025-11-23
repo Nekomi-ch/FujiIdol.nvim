@@ -39,5 +39,6 @@ There probably is a lot left to do, but I have no idea what is left so by using 
 Thank you.
 
 ## [TODO]
+- [ ] Change color palette slightly to have better readability
 - [ ] Treesitter 
 - [ ] Telescope
