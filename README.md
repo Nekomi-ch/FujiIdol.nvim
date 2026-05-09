@@ -1,3 +1,8 @@
+>[!WARNING]
+>This repo has been migrated to [Codeberg](https://codeberg.org/nekomi_ch/FujiIdol.nvim)
+>But Lazy seemed to use github as its only source, so I will keep this repo around as a mirror
+>However, you should check the original repo for better updates, so if it doesn't work you have to directly download from there
+
 # FujiIdol.nvim
 
 neovim port for the FujiIdol color scheme
